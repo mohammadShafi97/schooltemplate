@@ -16,8 +16,9 @@ const Navbar = () => {
 
   const links = [
     { name: 'Home', path: '#home' },
+    { name: 'Legacy', path: '#legacy' },
+    { name: 'Pillars', path: '#pillars' },
     { name: 'About', path: '#about' },
-    { name: 'Academics', path: '#academics' },
     { name: 'Contact', path: '#contact' },
   ];
 
@@ -52,10 +53,10 @@ const Navbar = () => {
             </div>
             <div>
               <span className={`block font-bold text-xl leading-none ${scrolled ? 'text-primary-900' : 'text-white drop-shadow-md'}`}>
-                Little Flower
+                BE MAX
               </span>
               <span className={`block text-[0.65rem] font-bold tracking-[0.2em] uppercase mt-1 ${scrolled ? 'text-primary-600' : 'text-primary-100 drop-shadow-sm'}`}>
-                International School
+                Kids & Public School
               </span>
             </div>
           </a>
